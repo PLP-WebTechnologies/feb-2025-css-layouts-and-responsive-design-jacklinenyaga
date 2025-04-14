@@ -1,0 +1,61 @@
+body {
+    margin: 20px;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    text-shadow: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+
+.navBar {
+    display: flex;
+    background-color: rgb(233, 176, 233);
+    gap: 20px;
+    padding: 10px;
+    justify-content: flex-end;
+
+}
+
+.nav {
+    text-align: center;
+    font-size: 30px;
+}
+
+.searchcontainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.searchcontainer input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.searchcontainer input[type="text"]:focus {
+    border-color: darkorchid;
+    outline: none;
+}
+
+.Btn {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: darkorchid;
+}
